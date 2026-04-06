@@ -1,0 +1,164 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0; /*aqui eu coloquei margin e padding 0 pq muitos
+    navegadores ja vem com um padrao de disso, entao zerei para
+    garantir que fique tudo zerado e eu posso editar deois*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+header {
+    margin: 44px 0 144px 76px;
+}
+.link-header {
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: rgba(152, 157, 156, 1);
+cursor: pointer;
+margin-right: 23px;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    opacity: 1;
+    margin-left: 125px;
+    display: inline-block;
+    
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: rgba(81, 81, 81, 1);
+
+}
+
+h2 {
+font-weight: 500;
+font-size: 58px;
+line-height: 71px;
+color: rgba(81, 81, 81, 1);
+
+}
+
+p {
+    
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: rgba(132, 132, 132, 1);
+width: 515px;
+margin-top: 32px;
+margin-bottom: 65px;
+}
+
+.button-main {
+    background: rgba(173, 255, 0, 1);
+    width: 239px;
+    height: 64px;
+    border: none;
+    opacity: 1;
+    border-radius: 30.5px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.527));  
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: black;
+
+}
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        padding: 0;
+        height: 50%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    .logo-image {
+        position: static;
+        max-width: 114%;
+        margin-left: 14px;
+    }
+
+    header {
+        display: none;
+    }
+
+    
+
+    h1 {
+        font-size: 50px;
+        line-height: 52px;
+        width: auto;
+        margin: -75px 50px 0 -52px;
+        text-align: center;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        height: 52px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 34px;
+        width: auto;
+        height: 232px;
+        text-align: center;
+        margin: 0px 0px 0 -106px;
+    }
+
+   p {
+    display: none;
+   }
+
+    .button-main {
+        display: block;
+        margin: -179px 0px 0 -25px;
+        
+        
+
+
+    }
+
+    @media screen and (max-width: 300px) {
+        .container-left {
+            height: 70%;
+        }
+        
+    }
+}
